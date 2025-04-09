@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  crawler:
+    build: .
+    container_name: product-crawler
+    ports:
+      - "8080:8080"
+    environment:
+      - JAVA_OPTS=-Xmx512m
+    volumes:
+      - ./logs:/app/logs
+    shm_size: "2gb"
+    restart: unless-stopped

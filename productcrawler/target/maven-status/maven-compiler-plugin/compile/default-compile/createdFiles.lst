@@ -1,0 +1,3 @@
+org\wolfiee\productcrawler\Service\crawlerservice.class
+org\wolfiee\productcrawler\ProductcrawlerApplication.class
+org\wolfiee\productcrawler\Controller\CrawlerController.class
